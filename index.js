@@ -8,7 +8,7 @@ const path = require('path');
 
 const app = express();
 app.use(cors({
-    origin: 'https://complexity-client.vercel.app/', 
+    origin: '*', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true 
 }));
